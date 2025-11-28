@@ -16,7 +16,7 @@ O objetivo é adivinhar o número secreto — que nesta versão é sempre **7**.
 3. Execute o comando:
 
 ```bash
-python game_interface.py
+python game.py
 ```
 
 4. Digite seu palpite na interface e clique em **Verificar**.
@@ -65,7 +65,7 @@ A great starter project for anyone learning Python and beginning to use Git and 
 3. Run:
 
 ```bash
-python game_interface.py
+python game.py
 ```
 
 4. Type your guess in the interface and click **Verify**.
