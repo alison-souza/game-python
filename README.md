@@ -2,8 +2,10 @@
 
 ## 🇧🇷 Português
 
-Este é um simples jogo em Python onde o jogador precisa adivinhar um número secreto — que, nesta versão, é sempre **7**.  
-É um projeto iniciante ideal para quem está começando no desenvolvimento com Python e quer aprender também a usar Git e GitHub.
+Este é um simples jogo em Python com **interface gráfica (GUI)** feita em Tkinter.
+O objetivo é adivinhar o número secreto — que nesta versão é sempre **7**.
+
+É um ótimo projeto iniciante para quem está aprendendo Python e começando a usar Git e GitHub.
 
 ---
 
@@ -14,41 +16,45 @@ Este é um simples jogo em Python onde o jogador precisa adivinhar um número se
 3. Execute o comando:
 
 ```bash
-python game.py
+python game_interface.py
 ```
 
-4. Digite seus palpites até acertar o número secreto.
+4. Digite seu palpite na interface e clique em **Verificar**.
+5. Use o botão **Jogar Novamente** para tentar outra vez.
 
 ---
 
 ## 🧠 Lógica do jogo
 
 - O número secreto é sempre **7**
-- O programa informa se o palpite está acima ou abaixo
-- Ao acertar, o jogo exibe quantas tentativas foram feitas
+- A interface informa se o palpite está correto
+- Um botão permite reiniciar o jogo rapidamente
 
 ---
 
 ## 🛠️ Tecnologias usadas
 
 - Python 3
+- Tkinter (GUI nativa do Python)
 
 ---
 
 ## 🔮 Melhorias futuras
 
-- Sistema de vidas
-- Vários níveis de dificuldade
-- Interface gráfica
 - Número secreto aleatório
-- Ranking de tentativas
+- Sistema de tentativas
+- Tela inicial
+- Temas de cores (dark mode, gold theme, etc.)
+- Efeitos sonoros e animações
 
 ---
 
 # 🇺🇸 English Version
 
-This is a simple Python game where the player must guess a secret number — which in this version is always **7**.  
-It’s a beginner-friendly project, great for those starting in Python and learning how to use Git and GitHub.
+This is a simple Python game with a **graphical interface (GUI)** built using Tkinter.
+The goal is to guess the secret number — which in this version is always **7**.
+
+A great starter project for anyone learning Python and beginning to use Git and GitHub.
 
 ---
 
@@ -59,38 +65,40 @@ It’s a beginner-friendly project, great for those starting in Python and learn
 3. Run:
 
 ```bash
-python game.py
+python game_interface.py
 ```
 
-4. Type your guesses until you hit the secret number.
+4. Type your guess in the interface and click **Verify**.
+5. Use the **Play Again** button to restart the game.
 
 ---
 
 ## 🧠 Game Logic
 
 - The secret number is always **7**
-- The game tells you if your guess is higher or lower
-- When you find the number, the game shows how many attempts you used
+- The interface tells you if the guess is correct
+- A reset button lets you play again easily
 
 ---
 
 ## 🛠️ Technologies Used
 
 - Python 3
+- Tkinter (built-in GUI library)
 
 ---
 
 ## 🔮 Future Improvements
 
-- Life system
-- Difficulty levels
-- GUI interface
 - Random secret number
-- Attempt ranking
+- Attempt counter
+- Start screen
+- Custom themes (dark mode, gold/green theme, etc.)
+- Sound effects and animations
 
 ---
 
 ## 👤 Autor
 
-**Alison Souza**  
+**Alison Souza**
 [LinkedIn](https://www.linkedin.com/in/alison-souza-dev/)
